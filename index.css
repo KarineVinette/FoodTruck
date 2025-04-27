@@ -26,6 +26,29 @@ body {
 .menu-button:hover {
   background-color: #e67e22;
 }
+
+.map-container {
+  position: relative;
+  max-width: 500px; /* Limite la largeur à 500px sur les grands écrans */
+  height: 600px;   /* Hauteur fixe pour l'ordinateur */
+  margin: 0 auto;  /* Centre la carte horizontalement */
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive pour mobile */
+@media (max-width: 768px) {
+  .map-container {
+    max-width: 100%;  /* Utilise 100% de la largeur de l'écran sur mobile */
+    height: 300px;    /* Ajuste la hauteur de la carte sur mobile pour un meilleur affichage */
+  }
+}
 /* Navbar */
 .navbar {
   display: flex;
