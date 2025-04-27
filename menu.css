@@ -1,0 +1,75 @@
+/* Mise en page générale */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Contenu principal */
+main {
+    padding: 20px;
+}
+
+/* Sections du menu */
+.menu-section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Liste des produits */
+.product-list {
+    list-style: none;
+    padding: 0;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style des noms et prix */
+.product-name {
+    font-size: 1.2rem;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    color: #ff6347; /* Couleur orange tomate pour le prix */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
