@@ -74,4 +74,16 @@
   </footer>
 
 </body>
+<!-- Ajoutez ceci après votre balise script ou dans votre fichier JavaScript -->
+<script>
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      const menuToggle = document.querySelector('.menu-toggle');
+      if (menuToggle.checked) {
+        menuToggle.checked = false; // Ferme le menu
+      }
+    });
+  });
+</script>
+
 </html>
